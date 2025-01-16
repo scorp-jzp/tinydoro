@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
+    <title>TINYPOMO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>TINYDORO</h1>
+        <nav><a href="https://open.spotify.com/playlist/37i9dQZF1E4rlkYj6ItCDn?si=4fafe7bdbe084465" target="_blank">BTS Radio</a></nav>
+    </header>
+
+    <div class="container">
+        <div class="pomodoro">
+            <h2>Pomodoro Timer</h2>
+            <input type="number" id="timeInput" placeholder="Minutes" />
+            <select id="imageSelect">
+                <option value="BTS_JK.png">Jungkook</option>
+                <option value="BTS_RM.png">RM</option>
+                <option value="BTS_SUGA.png">Suga</option>
+                <option value="BTS_V.png">V</option>
+                <option value="BTS_JIN.png">Jin</option>
+                <option value="BTS_JHOPE.png">J-Hope</option>
+                <option value="BTS_JIMIN.png">Jimin</option>
+            </select>
+            <button id="startTimer">Start</button>
+            <div id="timerDisplay">00:00</div>
+            <ul id="sessionList"></ul>
+        </div>
+
+        <div class="todo">
+            <h2>To-Do List</h2>
+            <input type="text" id="taskInput" placeholder="New Task" />
+            <button id="addTask">Add Task</button>
+            <ul id="taskList"></ul>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

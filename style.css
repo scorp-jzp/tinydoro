@@ -1,0 +1,43 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    color: black;
+}
+
+header {
+    background-color: #ba83e0;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: 'Teko', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.pomodoro, .todo {
+    background-color: #ba83e0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+}
+
+#timerDisplay {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+button {
+    margin-top: 10px;
+}
